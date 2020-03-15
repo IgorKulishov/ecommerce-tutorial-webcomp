@@ -2,10 +2,11 @@
   "name": "ecommerce-tutorial-webcomp",
   "version": "1.0.0",
   "description": "ecommerce-tutorial-stencil-webcomp",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "es2015": "dist/esm/index.mjs",
+  "es2017": "dist/esm/index.mjs",
+  "types": "dist/types/index.d.ts",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/IgorKulishov/ecommerce-tutorial-webcomp.git"
@@ -19,6 +20,17 @@
     "url": "https://github.com/IgorKulishov/ecommerce-tutorial-webcomp/issues"
   },
   "homepage": "https://github.com/IgorKulishov/ecommerce-tutorial-webcomp#readme",
+  "files": [
+    "dist/",
+    "loader/"
+  ],
+  "scripts": {
+    "build": "stencil build --docs",
+    "start": "stencil build --dev --watch --serve",
+    "test": "stencil test --spec --e2e",
+    "test.watch": "stencil test --spec --e2e --watchAll",
+    "generate": "stencil generate"
+  },
   "devDependencies": {
     "@stencil/core": "^1.9.2",
     "@stencil/router": "^1.0.1"
