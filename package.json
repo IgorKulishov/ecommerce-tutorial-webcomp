@@ -1,0 +1,26 @@
+{
+  "name": "ecommerce-tutorial-webcomp",
+  "version": "1.0.0",
+  "description": "ecommerce-tutorial-stencil-webcomp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IgorKulishov/ecommerce-tutorial-webcomp.git"
+  },
+  "keywords": [
+    "ecommerce-tutorial-webcomp"
+  ],
+  "author": "igor kulishov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IgorKulishov/ecommerce-tutorial-webcomp/issues"
+  },
+  "homepage": "https://github.com/IgorKulishov/ecommerce-tutorial-webcomp#readme",
+  "devDependencies": {
+    "@stencil/core": "^1.9.2",
+    "@stencil/router": "^1.0.1"
+  }
+}
