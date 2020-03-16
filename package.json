@@ -1,6 +1,6 @@
 {
   "name": "ecommerce-tutorial-webcomp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ecommerce-tutorial-stencil-webcomp",
   "main": "src/index.js",
   "repository": {
