@@ -2,7 +2,7 @@
   "name": "ecommerce-tutorial-webcomp",
   "version": "1.0.0",
   "description": "ecommerce-tutorial-stencil-webcomp",
-  "main": "dist/index.js",
+  "main": "src/index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/IgorKulishov/ecommerce-tutorial-webcomp.git"
@@ -11,7 +11,7 @@
     "ecommerce-tutorial-webcomp"
   ],
   "author": "igor kulishov",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/IgorKulishov/ecommerce-tutorial-webcomp/issues"
   },
